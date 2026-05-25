@@ -1,0 +1,19 @@
+# Jekyll build output — never commit, GitHub Pages rebuilds on push.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby / Bundler — only relevant for local previews.
+.bundle/
+vendor/
+Gemfile.lock
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo

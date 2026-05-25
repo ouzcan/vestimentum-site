@@ -1,0 +1,31 @@
+# Jekyll configuration for vestimentum.app
+#
+# GitHub Pages auto-builds this with Jekyll 3.x on push. We deliberately
+# don't pull in a theme — the design is bespoke and small enough that a
+# theme adds more weight than it removes. `permalink: pretty` gives us
+# `/legal/privacy_policy_tr/` (with index.html inside) instead of
+# `/legal/privacy_policy_tr.html`, matching the URLs the mobile app's
+# `core/legal/legal_urls.dart` hardcodes.
+
+title: Vestimentum
+description: AI-powered wardrobe & outfit stylist — yapay zeka destekli gardırop ve stilist.
+url: https://vestimentum.app
+
+# Pretty URLs: /legal/privacy_policy_tr/ instead of .html suffix.
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude files Jekyll would otherwise try to process.
+exclude:
+  - README.md
+  - .gitignore
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+# Don't show drafts unless explicitly enabled.
+show_drafts: false

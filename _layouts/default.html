@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'tr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#C84B31">
+  <title>{{ page.title | default: site.title }} — Vestimentum</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">V</span>
+      <span class="brand-name">Vestimentum</span>
+    </a>
+  </header>
+
+  <main class="site-main {% if page.layout == 'legal' %}site-main--legal{% endif %}">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small">V</span>
+        Vestimentum
+      </div>
+      <nav class="footer-nav">
+        <a href="{{ '/legal/privacy_policy_tr/' | relative_url }}">Gizlilik (TR)</a>
+        <a href="{{ '/legal/privacy_policy_en/' | relative_url }}">Privacy (EN)</a>
+        <a href="{{ '/legal/terms_of_service_tr/' | relative_url }}">Şartlar (TR)</a>
+        <a href="{{ '/legal/terms_of_service_en/' | relative_url }}">Terms (EN)</a>
+      </nav>
+      <p class="footer-copy">© {{ 'now' | date: '%Y' }} Vestimentum. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+</body>
+</html>
