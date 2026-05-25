@@ -7,8 +7,8 @@ lang: en
 ---
 # Terms of Service
 
-**Effective date:** May 21, 2026
-**Last updated:** May 21, 2026
+**Effective date:** May 25, 2026
+**Last updated:** May 25, 2026
 
 These Terms of Service ("**Terms**") govern your use of the Vestimentum
 mobile application ("**App**", "**Vestimentum**"). By using the App
@@ -108,8 +108,9 @@ to:
 - Host, store, back up, and display the content,
 - Process the content for AI models (classification, background
   removal, outfit suggestion generation),
-- If you share an outfit, show the content to other users (only as
-  the share action requires).
+- If you share an outfit, display **abstract/silhouette representations**
+  of the content (not the actual photographs) to other users in
+  Discover and similar features.
 
 This license exists solely to operate the App. We do not use your
 content for advertising, sale, or AI model training.
@@ -204,11 +205,10 @@ Vestimentum offers two tiers:
   right under the Consumer Rights Directive; however, this right is
   typically waived when digital content has begun to be supplied.
 
-### 8.4 MVP Stage Notice
-Vestimentum is currently in MVP stage. **The paid subscription is
-not yet live** — the in-app "Upgrade" flow is a stub that does not
-charge real money. RevenueCat / Stripe integration will activate at
-production launch.
+### 8.4 Activation of Premium Features
+Some premium features are not yet active and will go live when
+announced in-app. You will not be charged until paid subscription
+becomes available.
 
 ---
 
@@ -263,8 +263,9 @@ Upon termination:
 - Your active subscription is cancelled at the end of the current
   period
 - The following sections of these Terms survive: 5 (licenses granted
-  for past shares), 7 (disclaimer), 9 (IP), 11 (limitation of
-  liability), 12-15.
+  for past shares), 7 (disclaimer), 9 (IP), and 11-15 (warranty
+  disclaimer, limitation of liability, indemnity, governing law,
+  general provisions).
 
 ---
 
@@ -292,8 +293,8 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
   damages** arising from your use of Vestimentum (including data
   loss, lost profits, reputational damage, etc.).
 - Our total liability is limited to the **fees you paid us in the
-  12 months preceding the event.** For free users, this cap is the
-  TRY equivalent of approximately USD 3.
+  12 months preceding the event.** For free users, this cap is
+  TRY 100 (approximately USD 3).
 - We are not liable for damages arising from AI-generated suggestions.
 
 Consumer-rights liabilities (under EU/Turkish consumer law) are not

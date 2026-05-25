@@ -7,8 +7,8 @@ lang: tr
 ---
 # Hizmet Şartları
 
-**Yürürlük tarihi:** 21 Mayıs 2026
-**Son güncelleme:** 21 Mayıs 2026
+**Yürürlük tarihi:** 2026-05-25
+**Son güncelleme:** 2026-05-25
 
 Bu Hizmet Şartları ("**Şartlar**"), Vestimentum mobil uygulamasının
 ("**Uygulama**", "**Vestimentum**") kullanımını düzenler. Uygulamayı
@@ -111,8 +111,9 @@ Kullanıcı İçeriği yüklediğinizde, bizi ve hizmet sağlayıcılarımızı:
 - İçeriği barındırma, saklama, yedekleme, görüntüleme,
 - İçeriği yapay zeka modeli için işleme (sınıflandırma, arka plan
   kaldırma, kombin önerisi üretme),
-- Kombin paylaşımı yaparsanız, içeriği diğer kullanıcılara gösterme
-  (yalnızca aboneliklerin gerektirdiği şekilde)
+- Kombin paylaşımı yaparsanız, Discover ve benzeri özellikler için
+  içeriğin **soyut/silüet temsillerini** (gerçek fotoğraflar değil)
+  diğer kullanıcılara gösterme
 
 amaçlarıyla **dünya çapında, telifsiz, devredilebilir, alt-lisans
 verilebilir** bir lisansla yetkilendirirsiniz. Bu lisans yalnızca
@@ -211,13 +212,12 @@ Vestimentum iki seviye sunar:
   (Apple / Google'ın iade kurallarına göre). Türkiye'de tüketici
   hakları kapsamında uzaktan iletişim sözleşmelerinde 14 gün cayma
   hakkınız bulunabilir; ancak dijital içeriğin sunulmaya başlanmasıyla
-  bu hak kaybedilebilir (TKHK m.15/1-ğ).
+  bu hak kaybedilebilir (Mesafeli Sözleşmeler Yönetmeliği m.15/1-ğ).
 
-### 8.4 Gelişme Aşaması Bildirimi (MVP)
-Vestimentum şu an MVP aşamasındadır. **Ücretli abonelik henüz
-canlı değildir** — uygulama içindeki "Yükselt" akışı bir stub'dur
-ve gerçek ücret almaz. RevenueCat veya Stripe entegrasyonu
-prodüksiyon lansmanında aktif olacaktır.
+### 8.4 Premium Özelliklerin Devreye Alınması
+Bazı premium özellikler henüz aktif değildir ve uygulama içinde
+duyurulduğunda yürürlüğe girecektir. Ücretli abonelik başlamadan
+sizden ücret tahsil edilmez.
 
 ---
 
@@ -274,7 +274,8 @@ Hesabınız sonlandığında:
 - Aktif aboneliğiniz mevcut dönem sonunda iptal olur
 - Bu Şartların aşağıdaki bölümleri yürürlükte kalır: 5 (verilen
   lisans, geçmiş paylaşımlar için), 7 (sorumluluk reddi), 9
-  (fikri mülkiyet), 11 (sorumluluk sınırlaması), 12-15.
+  (fikri mülkiyet) ve 11-15 (garanti reddi, sorumluluk sınırlaması,
+  tazminat, geçerli hukuk, genel hükümler).
 
 ---
 
@@ -303,7 +304,7 @@ YASALARIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE:
   kaybı vb. dahil).
 - Toplam sorumluluğumuz, **olaydan önceki 12 ay içinde bizden satın
   aldığınız hizmet bedeli** ile sınırlıdır. Ücretsiz kullanıcılar
-  için bu limit 100 TL veya eşdeğeri ile sınırlıdır.
+  için bu limit 100 TL (yaklaşık 3 USD) ile sınırlıdır.
 - Yapay zeka tarafından üretilen önerilerden doğan zararlardan
   sorumlu değiliz.
 

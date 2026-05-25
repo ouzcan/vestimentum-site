@@ -7,8 +7,8 @@ lang: en
 ---
 # Privacy Policy
 
-**Effective date:** May 21, 2026
-**Last updated:** May 21, 2026
+**Effective date:** May 25, 2026
+**Last updated:** May 25, 2026
 
 This Privacy Policy explains how the Vestimentum mobile application
 ("**App**", "**Vestimentum**") collects, uses, shares, and protects
@@ -77,7 +77,7 @@ If you do not agree with this Policy, please do not use the App.
   political / religious views, sexual orientation, ethnicity — none.
 - **Precise location:** Street-level GPS — not collected.
 - **Messaging content:** None today (this section will be updated
-  when comments arrive in Phase 5 v2).
+  when comments are added in a future release).
 
 ---
 
@@ -148,10 +148,21 @@ below. Each processes your data under its own privacy policy.
 - **Only active in production configurations.**
 - **Privacy policy:** https://sentry.io/privacy
 
-### 4.7 Apple / Google (App Stores)
-- We use Apple App Store and Google Play to distribute the App. When
-  you purchase a subscription in-store, the store shares your
-  subscription status with us.
+### 4.7 App Stores
+
+#### 4.7.1 Apple App Store (Apple Inc.)
+- **Data shared:** Subscription identifier (anonymous purchase
+  token), billing records, IP address, Apple ID (user-facing; we
+  do not see this identifier).
+- **Location:** US / European data centers (Apple's own policy).
+- **Privacy policy:** https://www.apple.com/legal/privacy/
+
+#### 4.7.2 Google Play (Google LLC)
+- **Data shared:** Subscription identifier (anonymous purchase
+  token), billing records, IP address, Google Play account
+  (user-facing; we do not see this identifier).
+- **Location:** Global data centers.
+- **Privacy policy:** https://policies.google.com/privacy
 
 ---
 
@@ -162,9 +173,9 @@ below. Each processes your data under its own privacy policy.
   removed from servers within 30 days. The database row is purged
   immediately when you tap "Delete account"; backup purges can take
   up to 30 days.
-- **Cloudinary photos:** When the account is deleted, photo URLs are
-  removed from the database; orphaned assets on Cloudinary are
-  automatically purged by their cleanup policy within 30-60 days.
+- **Cloudinary photos:** When you delete your account, all Cloudinary
+  assets including your profile photo and garment images are deleted
+  within 30 days.
 - **Logs (Sentry / server logs):** Automatically deleted after 90 days.
 - **Legal retention:** Billing records may be retained up to 10 years
   due to tax-law obligations (e.g., Turkish Tax Procedure Law).
@@ -173,10 +184,12 @@ below. Each processes your data under its own privacy policy.
 
 ## 6. Where Data Is Stored & International Transfers
 
-Vestimentum servers are hosted in **EU data centers** (planned: Fly.io
-or Railway EU region). Some third-party services (Firebase, Anthropic)
-process data in the **US**. These transfers rely on **Standard
-Contractual Clauses (SCCs)** under GDPR Chapter V and KVKK Article 9.
+Vestimentum's production infrastructure is not yet live; once the
+production environment goes live, servers will be hosted in **EU
+data centers** (Fly.io or Railway EU region). Some third-party
+services (Firebase, Anthropic) process data in the **US**. These
+transfers rely on **Standard Contractual Clauses (SCCs)** under
+GDPR Chapter V and KVKK Article 9.
 
 ---
 
@@ -208,6 +221,9 @@ Under KVKK Article 11, you additionally have the right to:
 - Object to a result derived purely from automated analysis that
   affects you adversely
 - Seek compensation for damages arising from unlawful processing
+- Request that your data be provided to you in a structured, commonly
+  used, machine-readable format (consistent with KVKK Board guidance
+  interpretation)
 
 ### 7.3 Under CCPA (California Residents)
 Under CCPA, you additionally have the right to:
@@ -223,7 +239,8 @@ Under CCPA, you additionally have the right to:
 
 **Easiest — in the app:**
 - Profile → "Delete my account" → all your data is removed.
-- Profile → "Export my data" (coming soon — Phase 11 v2) → JSON file.
+- Download my data: write to privacy@vestimentum.app to request a
+  copy of your data in JSON format.
 - Use the profile settings for other changes.
 
 **By email:**
@@ -303,7 +320,8 @@ We recommend you periodically review this page.
 For questions or requests about this Policy:
 
 - **Email:** privacy@vestimentum.app
-- **KVKK Data Controller (Turkey):** Oğuzcan Özüpek
+- **Data Controller / Veri Sorumlusu:** Oğuzcan Özüpek (individual
+  data controller / gerçek kişi) — İzmir, Türkiye
   (privacy@vestimentum.app — to be updated after incorporation)
 
 If you are not satisfied with our response to a KVKK request, you may

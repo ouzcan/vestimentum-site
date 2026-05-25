@@ -7,8 +7,8 @@ lang: tr
 ---
 # Gizlilik Politikası
 
-**Yürürlük tarihi:** 21 Mayıs 2026
-**Son güncelleme:** 21 Mayıs 2026
+**Yürürlük tarihi:** 2026-05-25
+**Son güncelleme:** 2026-05-25
 
 Bu Gizlilik Politikası, Vestimentum mobil uygulamasının ("**Uygulama**",
 "**Vestimentum**") kişisel verilerinizi nasıl topladığını, kullandığını,
@@ -68,8 +68,8 @@ Bu Politikayı kabul etmiyorsanız Uygulamayı kullanmayınız.
   yapılandırıldığında aktiftir.
 - **IP adresi:** Firebase Authentication doğrulama sırasında geçici
   olarak görür; biz kalıcı olarak saklamayız.
-- **Cihaz bilgisi:** Uygulama sürümü, işletim sistemi sürümü (Android
-  X.Y), cihaz modeli (yalnızca çökme raporlarında).
+- **Cihaz bilgisi:** Uygulama sürümü, işletim sistemi sürümü (örn.
+  Android 14), cihaz modeli (yalnızca çökme raporlarında).
 
 ### 2.5 Toplamadığımız Veriler
 - **Davranışsal takip:** Reklam tanımlayıcıları, çapraz uygulama
@@ -77,7 +77,7 @@ Bu Politikayı kabul etmiyorsanız Uygulamayı kullanmayınız.
 - **Hassas veriler:** Sağlık, biyometrik, finansal hesap numaraları,
   siyasi/dini görüşler, cinsel yönelim, etnik köken → yok.
 - **Hassas konum:** Sokak seviyesi GPS verisi → toplanmıyor.
-- **Mesajlaşma içeriği:** Şu an yok (Phase 5 v2'de yorumlar
+- **Mesajlaşma içeriği:** Şu an yok (ilerleyen sürümlerde yorumlar
   eklendiğinde bu bölüm güncellenecek).
 
 ---
@@ -154,10 +154,21 @@ politikalarına göre işlediğini unutmayın.
 - **Yalnızca prodüksiyon yapılandırmasında aktiftir.**
 - **Gizlilik politikası:** https://sentry.io/privacy
 
-### 4.7 Apple / Google (Uygulama Mağazaları)
-- Uygulamayı dağıtmak için Apple App Store ve Google Play kullanırız.
-  Mağaza içi satın alma yaptığınızda, abonelik durumunuz mağaza
-  tarafından bizimle paylaşılır.
+### 4.7 Uygulama Mağazaları
+
+#### 4.7.1 Apple App Store (Apple Inc.)
+- **Aktarılan veri:** Abonelik kimlik bilgisi (anonim purchase
+  token), fatura kayıtları, IP adresi, Apple ID (kullanıcı tarafı;
+  biz bu kimliği görmeyiz).
+- **Konum:** ABD/Avrupa veri merkezleri (Apple kendi politikası).
+- **Gizlilik politikası:** https://www.apple.com/legal/privacy/
+
+#### 4.7.2 Google Play (Google LLC)
+- **Aktarılan veri:** Abonelik kimlik bilgisi (anonim purchase
+  token), fatura kayıtları, IP adresi, Google Play hesabı
+  (kullanıcı tarafı; biz bu kimliği görmeyiz).
+- **Konum:** Küresel veri merkezleri.
+- **Gizlilik politikası:** https://policies.google.com/privacy
 
 ---
 
@@ -168,9 +179,9 @@ politikalarına göre işlediğini unutmayın.
   veriler kalıcı olarak silinir. Veritabanı tetiği "silme" tuşuna
   basıldığında anında çalışır; yedeklemelerden silme 30 günü
   bulabilir.
-- **Cloudinary fotoğrafları:** Hesap silindiğinde, fotoğraf URL'leri
-  veritabanından silinir; Cloudinary üzerindeki yetim varlıklar
-  30-60 gün içinde otomatik temizlik politikasıyla silinir.
+- **Cloudinary fotoğrafları:** Hesabınızı sildiğinizde, profil
+  fotoğrafınız ve giysi görselleriniz dahil tüm Cloudinary varlıkları
+  en geç 30 gün içinde silinir.
 - **Loglar (Sentry / sunucu logları):** 90 gün sonra otomatik silinir.
 - **Yasal saklama yükümlülüğü:** Faturalandırma kayıtları, yasal
   zorunluluk gereği 10 yıla kadar saklanabilir (Türk Vergi Usul Kanunu).
@@ -179,11 +190,12 @@ politikalarına göre işlediğini unutmayın.
 
 ## 6. Verilerin Saklandığı Yer & Uluslararası Aktarım
 
-Vestimentum sunucuları **AB veri merkezlerinde** barındırılır
-(planlanan: Fly.io veya Railway'in AB bölgesi). Bazı üçüncü taraf
-hizmetler (Firebase, Anthropic) verileri **ABD'de** işler. Bu
-aktarımlar **Standart Sözleşme Maddeleri (SCC)** kapsamında yapılır;
-GDPR Bölüm 5 ve KVKK 9. madde gerekliliklerine uyulur.
+Vestimentum prodüksiyon altyapısı henüz yayında değildir; üretim
+ortamına geçildiğinde sunucular **AB veri merkezlerinde**
+(Fly.io veya Railway'in AB bölgesi) barındırılacaktır. Bazı üçüncü
+taraf hizmetler (Firebase, Anthropic) verileri **ABD'de** işler.
+Bu aktarımlar **Standart Sözleşme Maddeleri (SCC)** kapsamında
+yapılır; GDPR Bölüm 5 ve KVKK 9. madde gerekliliklerine uyulur.
 
 ---
 
@@ -205,6 +217,9 @@ KVKK 11. madde uyarınca, aşağıdaki haklara sahipsiniz:
   edilmesi sonucunda aleyhinize bir sonuca itiraz etme
 - Verilerin kanuna aykırı işlenmesi sebebiyle zarara uğramanız halinde
   zararın giderilmesini talep etme
+- Verilerinizin yapılandırılmış, yaygın kullanılan ve makine
+  tarafından okunabilir bir formatta tarafınıza iletilmesini talep
+  etme (KVKK Genelge yorumu çerçevesinde)
 
 ### 7.2 GDPR Kapsamında (AB Vatandaşları)
 GDPR 15-22. maddeler kapsamında ayrıca:
@@ -236,7 +251,8 @@ CCPA kapsamında ayrıca:
 
 **En kolay yol — uygulama içinden:**
 - Profil → "Hesabımı sil" → tüm verileriniz silinir.
-- Profil → "Verimi indir" (yakında — Phase 11 v2) → JSON olarak alın.
+- Verimi indir: privacy@vestimentum.app adresine yazarak JSON
+  formatında verilerinizin bir kopyasını talep edebilirsiniz.
 - Diğer değişiklikler için profil ayarlarını kullanın.
 
 **E-posta ile:**
@@ -321,7 +337,8 @@ kontrol etmenizi öneririz.
 Bu Politika hakkında soru veya talepleriniz için:
 
 - **E-posta:** privacy@vestimentum.app
-- **KVKK Veri Sorumlusu (Türkiye):** Oğuzcan Özüpek
+- **Veri Sorumlusu / Data Controller:** Oğuzcan Özüpek (gerçek
+  kişi / individual data controller) — İzmir, Türkiye
   (privacy@vestimentum.app — kurumsallaşma sonrası güncellenecektir)
 
 KVKK kapsamındaki taleplerinizi yanıtlamamızdan memnun değilseniz,
