@@ -81,9 +81,8 @@ Before announcing the site publicly:
       `legal@vestimentum.app`). Either set up email forwarding at
       your domain registrar so those addresses route to your real
       inbox, or replace them outright with `oguzcanozupek@gmail.com`.
-- [ ] Update yargı yeri (currently "İzmir Mahkemeleri") to your
-      actual city if different. Mobile app's home base is Batman,
-      Turkey per the founder's location.
+- [x] Yargı yeri — "İzmir Mahkemeleri" finalized 2026-05-26.
+      No further change.
 - [ ] Lawyer review (₺3-7K, 1-2 weeks). Pre-launch blocker.
 - [ ] Effective date in each legal/*.md: update to actual launch
       day.
