@@ -8,7 +8,7 @@ lang: tr
 # Gizlilik Politikası
 
 **Yürürlük tarihi:** 2026-05-25
-**Son güncelleme:** 2026-05-25
+**Son güncelleme:** 2026-06-03
 
 Bu Gizlilik Politikası, Vestimentum mobil uygulamasının ("**Uygulama**",
 "**Vestimentum**") kişisel verilerinizi nasıl topladığını, kullandığını,
@@ -31,6 +31,12 @@ için, ilgili üçüncü tarafların kendi gizlilik politikaları da geçerlidir
 (bkz. Bölüm 4).
 
 Bu Politikayı kabul etmiyorsanız Uygulamayı kullanmayınız.
+
+Bu metin aynı zamanda KVKK m.10 kapsamında **Aydınlatma Metni**
+işlevi görür. Yurt dışına veri aktarımı (Bölüm 6) ve burç özelliği
+(Bölüm 3) gibi açık rıza gerektiren işlemler için, uygulama içinde
+ayrıca ve özgür iradenizle vereceğiniz **açık rıza** esas alınır;
+bu rızayı dilediğiniz zaman geri çekebilirsiniz.
 
 ---
 
@@ -115,8 +121,10 @@ politikalarına göre işlediğini unutmayın.
 ### 4.1 Firebase (Google LLC) — Kimlik Doğrulama
 - **Aktarılan veri:** E-posta, parola hash, oturum tokenları, IP
   (geçici).
-- **Konum:** ABD veri merkezleri (Standard Contractual Clauses
-  uygulanır).
+- **Konum:** ABD veri merkezleri. Yurt dışına aktarım, KVKK m.9
+  uyarınca **uygun güvence** (KVKK Standart Sözleşmesi) kapsamında
+  yapılır; AB'den yapılan aktarımlarda ayrıca GDPR Standart
+  Sözleşme Maddeleri (SCC) uygulanır.
 - **Gizlilik politikası:** https://firebase.google.com/support/privacy
 
 ### 4.2 Cloudinary (Cloudinary Ltd.) — Görsel Barındırma
@@ -190,12 +198,22 @@ politikalarına göre işlediğini unutmayın.
 
 ## 6. Verilerin Saklandığı Yer & Uluslararası Aktarım
 
-Vestimentum prodüksiyon altyapısı henüz yayında değildir; üretim
-ortamına geçildiğinde sunucular **AB veri merkezlerinde**
-(Fly.io veya Railway'in AB bölgesi) barındırılacaktır. Bazı üçüncü
-taraf hizmetler (Firebase, Anthropic) verileri **ABD'de** işler.
-Bu aktarımlar **Standart Sözleşme Maddeleri (SCC)** kapsamında
-yapılır; GDPR Bölüm 5 ve KVKK 9. madde gerekliliklerine uyulur.
+Vestimentum'un prodüksiyon altyapısı **Avrupa Birliği veri
+merkezlerinde** (Railway, EU West bölgesi) barındırılmaktadır.
+Bazı üçüncü taraf hizmetler (Firebase, Anthropic, Cloudinary)
+verileri **ABD'de** işler.
+
+**KVKK kapsamında yurt dışına aktarım (m.9 — 1 Haziran 2024'te
+yürürlüğe giren yeni rejim):** Kişisel Verileri Koruma Kurulu'nun
+ABD hakkında verdiği bir **yeterlilik kararı bulunmadığından**,
+ABD'ye yapılan aktarımlar **uygun güvence** yoluyla — Kurul'un
+10 Temmuz 2024'te yayımladığı **KVKK Standart Sözleşmesi**
+imzalanarak ve imzadan itibaren 5 iş günü içinde Kurul'a
+bildirilerek — gerçekleştirilir. Sürekli ve sistematik aktarımlar
+"arızi hâl" (açık rıza) istisnasına dayandırılmaz.
+
+**GDPR kapsamında:** AB'den ABD'ye aktarımlar GDPR Bölüm 5 ve
+**Standart Sözleşme Maddeleri (SCC)** çerçevesinde yapılır.
 
 ---
 
@@ -271,6 +289,14 @@ altını otomatik reddeder; kayıt sırasında doğum tarihi girmediyseniz
 bile uygulamayı kullanmanız 13+ olduğunuzu beyan ettiğiniz anlamına
 gelir.
 
+**Avrupa Birliği / AEA kullanıcıları:** GDPR m.8 uyarınca, bulunduğunuz
+ülke daha yüksek bir yaş sınırı (16 yaşa kadar) öngörüyorsa, bu sınırın
+altındaki kullanıcılar için işleme yalnızca ebeveyn/veli onayı ile
+hukuka uygundur. **Türkiye'deki reşit olmayan kullanıcılar:** Türk
+hukukunda ayırt etme gücüne sahip olmayan küçükler için açık rıza
+veli/vasi tarafından verilir; 18 yaş altı kullanıcılar için veli
+onayı en güvenli yaklaşımdır.
+
 13 yaş altındaki bir çocuğa ait veri topladığımızı fark edersek
 hesabı derhal sileriz. Çocuğunuzun Vestimentum kullandığını
 düşünüyorsanız privacy@vestimentum.app adresine yazın.
@@ -338,8 +364,10 @@ Bu Politika hakkında soru veya talepleriniz için:
 
 - **E-posta:** privacy@vestimentum.app
 - **Veri Sorumlusu / Data Controller:** Oğuzcan Özüpek (gerçek
-  kişi / individual data controller) — İzmir, Türkiye
-  (privacy@vestimentum.app — kurumsallaşma sonrası güncellenecektir)
+  kişi / individual data controller) — İzmir, Türkiye. Açık posta
+  adresi talep hâlinde privacy@vestimentum.app üzerinden iletilir;
+  kurumsallaşma sonrası bu bölüm tüzel kişilik bilgileriyle
+  güncellenecektir.
 
 KVKK kapsamındaki taleplerinizi yanıtlamamızdan memnun değilseniz,
 Kişisel Verileri Koruma Kurulu'na (KVKK) şikayet hakkınız vardır:

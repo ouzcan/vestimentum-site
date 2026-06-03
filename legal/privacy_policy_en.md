@@ -8,7 +8,7 @@ lang: en
 # Privacy Policy
 
 **Effective date:** May 25, 2026
-**Last updated:** May 25, 2026
+**Last updated:** June 3, 2026
 
 This Privacy Policy explains how the Vestimentum mobile application
 ("**App**", "**Vestimentum**") collects, uses, shares, and protects
@@ -31,6 +31,12 @@ is also governed by those parties' own privacy policies (see
 Section 4).
 
 If you do not agree with this Policy, please do not use the App.
+
+This document also serves as the **information notice** required by
+Article 10 of the KVKK. For processing that requires explicit consent
+— such as international data transfers (Section 6) and the horoscope
+feature (Section 3) — your separate, freely given **explicit consent**
+is collected in-app and may be withdrawn at any time.
 
 ---
 
@@ -112,7 +118,10 @@ below. Each processes your data under its own privacy policy.
 
 ### 4.1 Firebase (Google LLC) — Authentication
 - **Data shared:** Email, password hash, session tokens, IP (transient).
-- **Location:** US data centers (Standard Contractual Clauses apply).
+- **Location:** US data centers. Transfers abroad are made under an
+  **appropriate safeguard** (the KVKK Standard Contract) per KVKK
+  Article 9; transfers from the EU additionally rely on the GDPR
+  Standard Contractual Clauses (SCCs).
 - **Privacy policy:** https://firebase.google.com/support/privacy
 
 ### 4.2 Cloudinary (Cloudinary Ltd.) — Image Hosting
@@ -184,12 +193,22 @@ below. Each processes your data under its own privacy policy.
 
 ## 6. Where Data Is Stored & International Transfers
 
-Vestimentum's production infrastructure is not yet live; once the
-production environment goes live, servers will be hosted in **EU
-data centers** (Fly.io or Railway EU region). Some third-party
-services (Firebase, Anthropic) process data in the **US**. These
-transfers rely on **Standard Contractual Clauses (SCCs)** under
-GDPR Chapter V and KVKK Article 9.
+Vestimentum's production infrastructure is hosted in **European
+Union data centers** (Railway, EU West region). Some third-party
+services (Firebase, Anthropic, Cloudinary) process data in the
+**US**.
+
+**Transfers abroad under the KVKK (Article 9 — new regime effective
+1 June 2024):** Because the Turkish Data Protection Board has issued
+no **adequacy decision** for the US, transfers to the US are carried
+out via an **appropriate safeguard** — by signing the **KVKK Standard
+Contract** published by the Board on 10 July 2024 and notifying the
+Board within 5 business days of signature. Continuous and systematic
+transfers are not based on the "incidental" (explicit-consent)
+exception.
+
+**Under the GDPR:** Transfers from the EU to the US are made under
+GDPR Chapter V and the **Standard Contractual Clauses (SCCs)**.
 
 ---
 
@@ -258,6 +277,13 @@ a date of birth during registration, the system automatically rejects
 DOBs that imply under-13. By using the App without providing a DOB,
 you represent that you are 13 or older.
 
+**EU / EEA users:** Under GDPR Article 8, where your country sets a
+higher age threshold (up to 16), processing for users below that
+threshold is lawful only with parental/guardian consent. **Minors in
+Türkiye:** Under Turkish law, explicit consent for minors lacking the
+capacity for discernment is given by a parent/guardian; for users
+under 18, obtaining guardian consent is the safest approach.
+
 If we discover that we have collected data from a child under 13, we
 will delete the account immediately. If you believe your child is
 using Vestimentum, please write to privacy@vestimentum.app.
@@ -321,8 +347,9 @@ For questions or requests about this Policy:
 
 - **Email:** privacy@vestimentum.app
 - **Data Controller / Veri Sorumlusu:** Oğuzcan Özüpek (individual
-  data controller / gerçek kişi) — İzmir, Türkiye
-  (privacy@vestimentum.app — to be updated after incorporation)
+  data controller / gerçek kişi) — İzmir, Türkiye. A postal address
+  is provided on request via privacy@vestimentum.app; this section
+  will be updated with legal-entity details after incorporation.
 
 If you are not satisfied with our response to a KVKK request, you may
 file a complaint with the Turkish Personal Data Protection Authority:

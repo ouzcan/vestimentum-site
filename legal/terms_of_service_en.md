@@ -8,7 +8,7 @@ lang: en
 # Terms of Service
 
 **Effective date:** May 25, 2026
-**Last updated:** May 25, 2026
+**Last updated:** June 3, 2026
 
 These Terms of Service ("**Terms**") govern your use of the Vestimentum
 mobile application ("**App**", "**Vestimentum**"). By using the App
@@ -200,10 +200,18 @@ Vestimentum offers two tiers:
   Store / Google Play account settings.
 - Cancellation takes effect at the end of the current billing period;
   you retain premium access until then.
-- **Refund policy:** Refunds are subject to the relevant store's
-  policy (Apple / Google). EU consumers may have a 14-day withdrawal
-  right under the Consumer Rights Directive; however, this right is
-  typically waived when digital content has begun to be supplied.
+- **Refund policy:** Because billing is handled by the store, refunds
+  are subject to the relevant store's policy (Apple / Google). In
+  Türkiye, under the Distance Contracts Regulation, services performed
+  instantly by electronic means and intangible (digital) content
+  supplied instantly are among the **exceptions to the right of
+  withdrawal**; the 14-day withdrawal right may therefore be
+  unavailable once supply of the subscription's digital content has
+  begun. This exception applies only where the **pre-contractual
+  information** and consent requirements — as updated by the
+  **24 May 2025** amendment to the Regulation — have been met; this
+  information is presented to you clearly before purchase. EU
+  consumers retain their rights under the Consumer Rights Directive.
 
 ### 8.4 Activation of Premium Features
 Some premium features are not yet active and will go live when
@@ -293,8 +301,10 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
   damages** arising from your use of Vestimentum (including data
   loss, lost profits, reputational damage, etc.).
 - Our total liability is limited to the **fees you paid us in the
-  12 months preceding the event.** For free users, this cap is
-  TRY 100 (approximately USD 3).
+  12 months preceding the event.**
+- **These limitations do not cover, and do not apply to, liability
+  arising from intent or gross negligence (Turkish Code of
+  Obligations Art. 115).**
 - We are not liable for damages arising from AI-generated suggestions.
 
 Consumer-rights liabilities (under EU/Turkish consumer law) are not

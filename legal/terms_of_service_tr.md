@@ -8,7 +8,7 @@ lang: tr
 # Hizmet Şartları
 
 **Yürürlük tarihi:** 2026-05-25
-**Son güncelleme:** 2026-05-25
+**Son güncelleme:** 2026-06-03
 
 Bu Hizmet Şartları ("**Şartlar**"), Vestimentum mobil uygulamasının
 ("**Uygulama**", "**Vestimentum**") kullanımını düzenler. Uygulamayı
@@ -208,11 +208,17 @@ Vestimentum iki seviye sunar:
   hesap ayarlarınızdan iptal edebilirsiniz.
 - İptal mevcut faturalandırma dönemi sonunda etkili olur. Dönem
   bitene kadar premium özelliklere erişiminiz devam eder.
-- **İade politikası:** Mağaza politikalarına tabidir
-  (Apple / Google'ın iade kurallarına göre). Türkiye'de tüketici
-  hakları kapsamında uzaktan iletişim sözleşmelerinde 14 gün cayma
-  hakkınız bulunabilir; ancak dijital içeriğin sunulmaya başlanmasıyla
-  bu hak kaybedilebilir (Mesafeli Sözleşmeler Yönetmeliği m.15/1-ğ).
+- **İade politikası:** Faturalandırma mağaza üzerinden yapıldığından
+  iadeler ilgili mağazanın (Apple / Google) kurallarına tabidir.
+  Türkiye'de Mesafeli Sözleşmeler Yönetmeliği uyarınca, elektronik
+  ortamda anında ifa edilen hizmetler ile tüketiciye anında sunulan
+  gayri maddi (dijital) içerik, **cayma hakkının istisnaları**
+  arasındadır; bu nedenle abonelik kapsamındaki dijital içeriğin
+  sunumuna başlanmasıyla 14 günlük cayma hakkı kullanılamayabilir.
+  Bu istisnanın geçerli olması, Yönetmeliğin **24 Mayıs 2025**
+  değişikliğiyle güncellenen **ön bilgilendirme** ve onay şartlarının
+  yerine getirilmesine bağlıdır; satın alma öncesi bu bilgiler size
+  açıkça sunulur.
 
 ### 8.4 Premium Özelliklerin Devreye Alınması
 Bazı premium özellikler henüz aktif değildir ve uygulama içinde
@@ -303,13 +309,14 @@ YASALARIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE:
   cezai zararlardan** sorumlu değiliz (veri kaybı, kâr kaybı, itibar
   kaybı vb. dahil).
 - Toplam sorumluluğumuz, **olaydan önceki 12 ay içinde bizden satın
-  aldığınız hizmet bedeli** ile sınırlıdır. Ücretsiz kullanıcılar
-  için bu limit 100 TL (yaklaşık 3 USD) ile sınırlıdır.
+  aldığınız hizmet bedeli** ile sınırlıdır.
 - Yapay zeka tarafından üretilen önerilerden doğan zararlardan
   sorumlu değiliz.
 
-Tüketici hakları kapsamındaki sorumluluklar (TKHK, KVKK) bu maddeden
-etkilenmez.
+**Bu sınırlamalar, Türk Borçlar Kanunu m.115 uyarınca kasıt veya
+ağır kusurdan doğan sorumluluğu kapsamaz ve bu hâllerde uygulanmaz.**
+Tüketici hakları kapsamındaki sorumluluklar (TKHK, KVKK) ile
+sınırlanamayan yasal sorumluluklar bu maddeden etkilenmez.
 
 ---
 
